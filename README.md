@@ -28,3 +28,17 @@ pd.set_option("display.float_format", lambda x: "%.4f" % x)
 ```
 
 - **Pd.set_option:**  Is used to configure the display of pandas DataFrames within an interactive Python environment, making data easier to review and analyze by adjusting how much of the DataFrame is shown and how it is formatted.
+
+ ### - Import ML libraries
+
+```python
+# Machine Learning
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
+from sklearn.preprocessing import RobustScaler, scale
+from sklearn.linear_model import LinearRegression, Ridge, RidgeCV, Lasso, LassoCV, ElasticNet, ElasticNetCV
+from sklearn import model_selection
+
+import warnings
+warnings.filterwarnings("ignore")
+```
