@@ -26,3 +26,5 @@ pd.set_option("display.max_rows", None)
 pd.set_option("display.width", 500)
 pd.set_option("display.float_format", lambda x: "%.4f" % x)
 ```
+
+- **Pd.set_option:**  Is used to configure the display of pandas DataFrames within an interactive Python environment, making data easier to review and analyze by adjusting how much of the DataFrame is shown and how it is formatted.
