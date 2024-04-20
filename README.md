@@ -17,4 +17,12 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 ```
 
-- [statsmodels.api](https://www.statsmodels.org/stable/api.html): A library which is used for statistical modeling and tests in Python. 
+- [statsmodels.api](https://www.statsmodels.org/stable/api.html): A library which is used for statistical modeling and tests in Python.
+
+ ### - Notebook Settings
+ ```python
+pd.set_option("display.max_columns", None)
+pd.set_option("display.max_rows", None)
+pd.set_option("display.width", 500)
+pd.set_option("display.float_format", lambda x: "%.4f" % x)
+```
